@@ -3,7 +3,7 @@ body {
 }
 h1 { color : #FFFFFF ;
     text-shadow: 2px 2px 60px #FFFFFF; 
-    font-family: 'Hevetica', Roman;
+    font-family: 'Helvetica', Roman;
     background-color: #378387;
     border-radius: 25px;
     border-style: dotted;
@@ -75,7 +75,6 @@ h4 { color : #FFFFFF ;
     align-items: center;
     width: 25%;
     text-align: center;
-    height: 20%;
 }
 
 .icono1{
@@ -136,7 +135,7 @@ ul.Redessociales li {
     display: flex;
 }
 
-p {
+.msj {
 color : #FFFFFF ;
     font-family: 'Helvetica', Roman;
     background-color: #378387;
@@ -145,6 +144,5 @@ color : #FFFFFF ;
     align-items: center;
     width: 25%;
     text-align: center;
-    height: 20%;
     display: flex;
 }

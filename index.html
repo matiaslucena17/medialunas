@@ -2,12 +2,14 @@
     <head>
 <meta charset="utf-8"
     ><title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilo.css">
     </head>
 <body>
-    <header>
-        <h1>Medialunas de Manteca</h1>
+    <header id="header">
+        <h1 id="h1">Medialunas de Manteca</h1>
         <nav>
+            <button onclick="modoOscuro()">Modo Oscuro</button>
             <a href=""><img class= "ig" src="imagenes/logoig.png" alt=""></a>
             <a href=""><img class="twt" src="imagenes/logox.avif" alt=""></a>
             <a href=""><img class="yt"src="imagenes/logoyt.png" alt=""></a>
@@ -15,9 +17,9 @@
         </nav>
     </header>
 <br>
-<h2>Ingredientes:</h2>
+<h2 id="h2">Ingredientes:</h2>
 <br>
-<ul>
+<ul id="ul">
 <li> 1K de Harina</li>
 <li>50GR de Levadura</li>
 <li>200GR de Manteca o Margarina</li>
@@ -29,9 +31,9 @@
 <li>1 Huevo (para pincelar)</li>
 </ul>
 <br>
-<h3>¿Cómo prepararlo?</h3>
+<h3 id="h3">¿Cómo prepararlo?</h3>
 <br>
-<ol>
+<ol id="ol">
     <li>Desgranar el cubo de levadura junto con agua y una cucharada de azúcar y harina.</li>
     <li>Mezclar la manteca (pomada) y el azúcar hasta obtener una mezcla cremosa.</li>
     <li>Agregar el huevo, una pizca de sal y una cucharada de esencia de vainilla.</li>
@@ -51,17 +53,66 @@
 <br>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52343.0394712622!2d-57.99436988216467!3d-34.92050124738265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e62b1f0085a1%3A0xbcfc44f0547312e3!2sLa%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1760480984830!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 <br>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card" style="width: 18rem;">
+                 <img src="https://comeviveviaja.com/wp-content/uploads/2023/01/Ratatouille-a-mi-manera.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Ratatouille</h5>
+                <p class="card-text">El ratatouille es uno de los platos más conocidos de la gastronomía francesa. Se trata de un guiso de verduras en el horno, muy sencillo de hacer y muy rico. En España yo la conocí, como muchas personas, con la película de Disney ratatouille.</p>
+                <a href="https://www.paulinacocina.net/ratatouille/21960" class="btn btn-primary">Ir a la receta</a>
+            </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card" style="width: 18rem;">
+                 <img src="https://princesspinkygirl.com/wp-content/uploads/2024/12/Dubai-Chocolate-Bar-Dark-Chocolate-21SQ1200.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Chocolate Dubai</h5>
+                <p class="card-text">El chocolate de Dubai no es solo un placer visual, sino que su sabor es una mezcla perfecta de ingredientes de alta gama. La base de cacao de alta calidad se combina con crema de pistacho, una de las delicias más codiciadas de la región, y el toque crujiente del knafeh, un ingrediente tradicional de la cocina árabe.</p>
+                <a href="https://chocolatestorras.com/recetas-chocolate/chocolate-dubai-pistacho/" class="btn btn-primary">Ir a la receta</a>
+            </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card" style="width: 18rem;">
+                 <img src="https://static01.nyt.com/images/2023/08/24/multimedia/LH-Goulash-kfmt/LH-Goulash-kfmt-mediumSquareAt3X.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Goulash</h5>
+                <p class="card-text">El goulash con spaetzle es un guiso típico de Hungría. La suavidad de los spaetzle, una suerte de pequeños ñoquis, complementa perfectamente el sabor intenso y especiado de la carne estofada del goulash, creando una experiencia gastronómica rica y sabrosa.</p>
+                <a href="https://www.paulinacocina.net/goulash/26709" class="btn btn-primary">Ir a la receta</a>
+            </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card" style="width: 18rem;">
+                 <img src="https://i.blogs.es/b0c70d/gyros-griego-de-ternera/650_1200.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Gyros</h5>
+                <p class="card-text">El Gyros es un plato tradicional griego que consiste en carne asada en un huso vertical y luego rebanada en finas láminas. La carne se sazona con una mezcla de yogurt griego, pimentón dulce, comino, canela, cilantro y limón. Esta receta, es una inspiración del Gyros griego.</p>
+                <a href="https://cocinandoelcambio.com/recetas/receta-gyros-griego-saludable/" class="btn btn-primary">Ir a la receta</a>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 <footer class="pie">
-    <h4>Si te gustó; ¡visita nuestras redes!</h4>
+    <h4 id="h4">Si te gustó; ¡visita nuestras redes!</h4>
 <ul class="Redessociales">
     <li><a href="https://twitter.com" target="_blank"><img src="imagenes/logox.avif" alt=" "class="icono1"></a></li>
     <li><a href="https://instagram.com" target="_blank"><img src="imagenes/logoig.png" alt=" "class="icono2"></a></li>
     <li><a href="https://youtube.com" target="_blank" ><img src="imagenes/logoyt.png" alt=" "class="icono3"></a></li>
     <li><a href="https://whatsapp.com" target="_blank"><img src="imagenes/logowasap.avif" alt=" "class="icono4"></a></li>
 </ul>
-    <p>Gracias por visitar mi página, nos vemos la próxima con más recetas para recrear. ¡Saludos!</p>
-</footer>
-
+    <p id="p" class="msj"> Gracias por visitar mi página, nos vemos la próxima con más recetas para recrear. ¡Saludos! </p>
+</footer> </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="script.js"></script>
 </body>
 </html>
 
